@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 400;
+  src: url('Asap-Regular.woff2') format('woff2'),
+       url('Asap-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 700;
+  src: url('Asap-Bold.woff2') format('woff2'),
+       url('Asap-Bold.ttf') format('truetype');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  height: 100%;;
+}
+
+body {
+  font-family: 'Asap', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  background-color: #fff;
+
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1920px;
+}
+
+@media (max-width: 400px) {
+  body {
+    padding: 10px;
+  }
+}
+
+.welcome-text {
+  font-size: 28px;
+  text-align: center;
+}
+
+
+
+
+
+
